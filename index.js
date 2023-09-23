@@ -35,13 +35,13 @@ for (let i = 0; i < num2.length; ++i) {
 
 const result = [];
 
-const minLengthNum1AndNum2 = Math.min(num1.length, num2.length);
+const minLengthMarkNum1AndMarkNum2 = Math.min(markNum1.length, markNum2.length);
 
 // num1.length = 5
 // num2.length = 6
 // min = 5
 // => 5 lần
-for (let i = 0; i < minLengthNum1AndNum2; ++i) {
+for (let i = 0; i < minLengthMarkNum1AndMarkNum2; ++i) {
   const valueFromMarkNum1 = markNum1[i];
   const valueFromMarkNum2 = markNum2[i];
 
